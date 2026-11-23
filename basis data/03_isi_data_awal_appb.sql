@@ -91795,34 +91795,34 @@ INSERT INTO kelurahan (id_kelurahan, id_kecamatan, nama_kelurahan) VALUES
 INSERT INTO admin
     (id_admin, nama, username, password)
 VALUES
-    (1, 'Admin Demo Utama', 'admin_demo', '$2b$10$1JngVfytM1BgdwhCCAL9E.Iy3CaBes6cTnaoguJzbGsx00tvlnHGa'),
-    (2, 'Admin Demo Rekap', 'admin_rekap_demo', '$2b$10$O0svu2SKPKPve0iACfLvUeNtBV.XGA8hwYClIKYts/a.n7wXjhSOq');
+    (1, 'Admin Demo Utama', 'admin_demo', 'AppbDemo2026!'),
+    (2, 'Admin Demo Rekap', 'admin_rekap_demo', 'AppbDemo2026!');
 
 INSERT INTO petugas
     (id_petugas, id_kelurahan, nama, username, password, kontak,
      instansi, status)
 VALUES
-    (1, '12.71.01.1001', 'Petugas Demo Medan', 'petugas_medan_demo', '$2b$10$rGecXNaFsZcWathrYnKDjev8X4HC42gTwBGaa8zjFDq78THymN.vq', NULL, 'Posko Simulasi Medan', 'Aktif'),
-    (2, '32.73.01.1001', 'Petugas Demo Bandung', 'petugas_bandung_demo', '$2b$10$0cZZgtRuo0Ejj5EXkv3SPOmDZ3CMZuhIWB0EiQpldRLbw8/2uodCi', NULL, 'Posko Simulasi Bandung', 'Aktif'),
-    (3, '31.71.01.1001', 'Petugas Demo Gambir', 'petugas_gambir_demo', '$2b$10$..PWwZLzrWUO6FPIc0eiQO8t2DVxUkNqApjrKjLWkxS0W/tg1Y/02', NULL, 'Posko Simulasi Jakarta', 'Aktif'),
-    (4, '73.71.01.1001', 'Petugas Demo Makassar', 'petugas_makassar_demo', '$2b$10$W2uZL6HWQNgZ4L6iomwHSeeb0.YUwZ1sPVHun548aIiD0hRY/3UHG', NULL, 'Posko Simulasi Makassar', 'Aktif'),
-    (5, '96.71.01.1001', 'Petugas Demo Sorong', 'petugas_sorong_demo', '$2b$10$.LcSXW2CnIa5ezQvlr6FSe3.pFFEIkOGWXK4BZjDlETyOPyCPngCy', NULL, 'Posko Simulasi Sorong', 'Aktif'),
-    (6, '11.71.01.2001', 'Petugas Demo Banda Aceh', 'petugas_aceh_demo', '$2b$10$ltKHge6poDeIsFUCd09hKeAzkDvxzpMDOW7ejUO8zSReqxhh5W1x2', NULL, 'Posko Simulasi Banda Aceh', 'Nonaktif'),
-    (7, '12.71.01.1002', 'Petugas Demo Pusat Pasar', 'petugas_pusat_pasar_demo', '$2b$10$b4uEjsUYtYqRVRT/PBZcZORYAaGFi1AujSmWmtjxeOrIdMVi9w3kq', NULL, 'Posko Simulasi Medan', 'Aktif'),
-    (8, '32.73.01.1002', 'Petugas Demo Gegerkalong', 'petugas_gegerkalong_demo', '$2b$10$eMhDIq.UWJbrJveDzCo2hueC4ijyXqllNO8/uij45nDCVurYa8AIm', NULL, 'Posko Simulasi Bandung', 'Aktif'),
-    (9, '31.71.01.1002', 'Petugas Demo Cideng', 'petugas_cideng_demo', '$2b$10$4IObuVxhV4zXTWoVViI9FulvPrZyap4nArbKuWJ6v7IPu0/CySjIq', NULL, 'Posko Simulasi Jakarta', 'Aktif'),
-    (10, '73.71.01.1002', 'Petugas Demo Mattoangin', 'petugas_mattoangin_demo', '$2b$10$CecevuOrGEdrp94Q3FSR5.w7wyVT7kcN8jTgG7S4rAAJ9zm7K.0Fu', NULL, 'Posko Simulasi Makassar', 'Aktif');
+    (1, '12.71.01.1001', 'Petugas Demo Medan', 'petugas_medan_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Medan', 'Aktif'),
+    (2, '32.73.01.1001', 'Petugas Demo Bandung', 'petugas_bandung_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Bandung', 'Aktif'),
+    (3, '31.71.01.1001', 'Petugas Demo Gambir', 'petugas_gambir_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Jakarta', 'Aktif'),
+    (4, '73.71.01.1001', 'Petugas Demo Makassar', 'petugas_makassar_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Makassar', 'Aktif'),
+    (5, '96.71.01.1001', 'Petugas Demo Sorong', 'petugas_sorong_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Sorong', 'Aktif'),
+    (6, '11.71.01.2001', 'Petugas Demo Banda Aceh', 'petugas_aceh_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Banda Aceh', 'Nonaktif'),
+    (7, '12.71.01.1002', 'Petugas Demo Pusat Pasar', 'petugas_pusat_pasar_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Medan', 'Aktif'),
+    (8, '32.73.01.1002', 'Petugas Demo Gegerkalong', 'petugas_gegerkalong_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Bandung', 'Aktif'),
+    (9, '31.71.01.1002', 'Petugas Demo Cideng', 'petugas_cideng_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Jakarta', 'Aktif'),
+    (10, '73.71.01.1002', 'Petugas Demo Mattoangin', 'petugas_mattoangin_demo', 'AppbDemo2026!', NULL, 'Posko Simulasi Makassar', 'Aktif');
 
 INSERT INTO relawan
     (id_relawan, id_kelurahan, nama, username, password, kontak,
      instansi, status)
 VALUES
-    (1, '12.71.01.1001', 'Relawan Demo Medan 1', 'relawan_medan_demo', '$2b$10$ZrnnANnJ6ZnGdc9r5U.i6.dG6FonnR9iqiHDAUEArtDkV/Yrpe1TG', NULL, 'Tim Relawan Simulasi Medan', 'Aktif'),
-    (2, '12.71.01.1002', 'Relawan Demo Medan 2', 'relawan_medan2_demo', '$2b$10$eF8Mi4Ao1jeVy551ccrqjuTg3pczFJctuOiY0U64tCu1LrcD6yUSi', NULL, 'Tim Relawan Simulasi Medan', 'Nonaktif'),
-    (3, '32.73.01.1001', 'Relawan Demo Bandung', 'relawan_bandung_demo', '$2b$10$I/NKFOBPXFA.x9ENXhzojuKBaVc9USzjpMkHqOKQ4AoJP9s6jcjKO', NULL, 'Tim Relawan Simulasi Bandung', 'Aktif'),
-    (4, '31.71.01.1001', 'Relawan Demo Gambir', 'relawan_gambir_demo', '$2b$10$Rp7obZCsWDj9Phd3.2jXUeGKwGWRp9jgMPWS4aGkKYHv5h7v5NQ1m', NULL, 'Tim Relawan Simulasi Jakarta', 'Aktif'),
-    (5, '73.71.01.1001', 'Relawan Demo Makassar', 'relawan_makassar_demo', '$2b$10$M2HRlaJPp3Lxz5qHU5IlfOi874yH.aSk6fk/0ibM1Qw8J204vBSr6', NULL, 'Tim Relawan Simulasi Makassar', 'Aktif'),
-    (6, '96.71.01.1001', 'Relawan Demo Sorong', 'relawan_sorong_demo', '$2b$10$TtjaRKPXr8SrBOwlmY3c3ubNrm1Kf36U.GJiHITfsiuPQVVy2E/Bm', NULL, 'Tim Relawan Simulasi Sorong', 'Aktif');
+    (1, '12.71.01.1001', 'Relawan Demo Medan 1', 'relawan_medan_demo', 'AppbDemo2026!', NULL, 'Tim Relawan Simulasi Medan', 'Aktif'),
+    (2, '12.71.01.1002', 'Relawan Demo Medan 2', 'relawan_medan2_demo', 'AppbDemo2026!', NULL, 'Tim Relawan Simulasi Medan', 'Nonaktif'),
+    (3, '32.73.01.1001', 'Relawan Demo Bandung', 'relawan_bandung_demo', 'AppbDemo2026!', NULL, 'Tim Relawan Simulasi Bandung', 'Aktif'),
+    (4, '31.71.01.1001', 'Relawan Demo Gambir', 'relawan_gambir_demo', 'AppbDemo2026!', NULL, 'Tim Relawan Simulasi Jakarta', 'Aktif'),
+    (5, '73.71.01.1001', 'Relawan Demo Makassar', 'relawan_makassar_demo', 'AppbDemo2026!', NULL, 'Tim Relawan Simulasi Makassar', 'Aktif'),
+    (6, '96.71.01.1001', 'Relawan Demo Sorong', 'relawan_sorong_demo', 'AppbDemo2026!', NULL, 'Tim Relawan Simulasi Sorong', 'Aktif');
 
 INSERT INTO bencana
     (id_bencana, nama_bencana, deskripsi, status)

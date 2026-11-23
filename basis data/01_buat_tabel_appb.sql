@@ -28,7 +28,7 @@ CREATE TABLE admin (
     id_admin INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     nama VARCHAR(150) NOT NULL,
     username VARCHAR(80) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL
+    password VARCHAR(72) NOT NULL
 );
 
 CREATE TABLE petugas (
@@ -36,7 +36,7 @@ CREATE TABLE petugas (
     id_kelurahan CHAR(13) NOT NULL,
     nama VARCHAR(150) NOT NULL,
     username VARCHAR(80) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
+    password VARCHAR(72) NOT NULL,
     kontak VARCHAR(30),
     instansi VARCHAR(150) NOT NULL,
     status ENUM('Aktif', 'Nonaktif') NOT NULL DEFAULT 'Aktif',
@@ -48,7 +48,7 @@ CREATE TABLE relawan (
     id_kelurahan CHAR(13) NOT NULL,
     nama VARCHAR(150) NOT NULL,
     username VARCHAR(80) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
+    password VARCHAR(72) NOT NULL,
     kontak VARCHAR(30),
     instansi VARCHAR(150) NOT NULL,
     status ENUM('Aktif', 'Nonaktif') NOT NULL DEFAULT 'Aktif',
